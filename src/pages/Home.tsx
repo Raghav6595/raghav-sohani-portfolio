@@ -1,7 +1,6 @@
 import { lazy, Suspense } from "react";
 import MainLayout from "../components/layout/MainLayout";
 import PageLoader from "../components/common/PageLoader/PageLoader";
-import Contacts from "../components/home/Contacts/Contacts";
 
 
 const Hero = lazy(() => import("../components/home/Hero/Hero"));
@@ -21,7 +20,7 @@ const Awards = lazy(
   () => import("../components/home/Awards/Awards")
 );
 
-const Contact = lazy(
+const Contacts = lazy(
   () => import("../components/home/Contacts/Contacts")
 );
 
