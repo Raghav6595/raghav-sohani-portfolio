@@ -34,7 +34,7 @@ const Hero = () => {
 
                         <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600">
 
-                            Frontend Engineer with 9+ years of experience delivering enterprise-scale web applications using React,Angular, Java, Spring Boot and MongoDB. Passionate about clean architecture, accessibility, performance optimization and mentoring development teams.
+                            Frontend Expertise | Fullstack Exposure with 9+ years of experience delivering enterprise-scale web applications using React,Angular, Java, Spring Boot and MongoDB. Passionate about clean architecture, accessibility, performance optimization and mentoring development teams.
 
                         </p>
 
