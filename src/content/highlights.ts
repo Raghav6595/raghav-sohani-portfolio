@@ -1,55 +1,40 @@
-import {
-  Boxes,
-  Zap,
-  ShieldCheck,
-  Accessibility,
-  TestTube2,
-  Rocket,
-} from "lucide-react";
-
-export const highlights = [
-  "9+ Years Experience",
-  "Angular/React",
-  "Spring Boot",
-  "Healthcare",
-  "Banking",
-];
+import { Accessibility, Boxes, Rocket, ShieldCheck, TestTube2, Zap } from "lucide-react";
 
 export const engineeringHighlights = [
   {
     title: "Enterprise Frontend Architecture",
     description:
-      "Designed scalable Angular applications with reusable components and modular architecture.",
+      "Designed and maintained modular applications with reusable components, improving scalability and long-term maintainability.",
     icon: Boxes,
   },
   {
     title: "Performance Optimization",
     description:
-      "Improved application responsiveness using lazy loading, optimized rendering and efficient frontend practices.",
+      "Enhanced application performance through lazy loading, optimized rendering, bundle optimization and efficient UI design.",
     icon: Zap,
   },
   {
     title: "Secure Authentication",
     description:
-      "Implemented JWT-based authentication and role-based authorization for secure access.",
+      "Implemented JWT-based authentication and role-based authorization to strengthen application security.",
     icon: ShieldCheck,
   },
   {
     title: "Accessibility",
     description:
-      "Built applications following Section 508 accessibility standards to improve usability and compliance.",
+      "Developed applications compliant with Section 508 accessibility standards to improve usability and regulatory compliance.",
     icon: Accessibility,
   },
   {
     title: "Testing",
     description:
-      "Developed and maintained unit tests using Jasmine, Karma and Jest to improve application quality.",
+      "Built and maintained unit tests using Jasmine, Karma and Jest to improve application reliability and code quality.",
     icon: TestTube2,
   },
   {
-    title: "Angular Upgrades",
+    title: "Framework Modernization",
     description:
-      "Worked on Angular version upgrades while ensuring application stability and compatibility.",
+      "Contributed to version upgrades while ensuring application stability, compatibility and smooth feature delivery.",
     icon: Rocket,
   },
 ];

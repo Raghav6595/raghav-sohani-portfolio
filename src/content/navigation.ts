@@ -1,26 +1,26 @@
-export const navigation = [
+export const navigationItems = [
   {
-    label: "Home",
+    title: "Home",
     href: "#hero",
   },
   {
-    label: "Projects",
+    title: "Projects",
     href: "#projects",
   },
   {
-    label: "Tech Stack",
+    title: "Tech Stack",
     href: "#tech-stack",
   },
   {
-    label: "Highlights",
+    title: "Highlights",
     href: "#highlights",
   },
   {
-    label: "Awards",
+    title: "Awards",
     href: "#awards",
   },
   {
-    label: "Contact",
+    title: "Contact",
     href: "#contact",
   },
 ];

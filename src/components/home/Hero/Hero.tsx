@@ -1,16 +1,14 @@
-import Button from "../../common/Button/Button";
+
 import Container from "../../common/Container/Container";
 
-import { hero } from "../../../content/hero";
 
-import HeroStats from "./HeroStats";
 import Section from "../../common/Section/Sections";
 import HeroProfileCard from "./HeroProfileCard";
-import { ArrowRight, Download, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 
 const Hero = () => {
     return (
-        <Section id="hero">
+        <Section id="hero" background="white">
 
             <Container>
 
@@ -20,11 +18,7 @@ const Hero = () => {
 
                     <div>
 
-                        <p className="mb-6 uppercase tracking-[8px] text-blue-600 font-semibold">
-
-                            Senior Frontend Engineer
-
-                        </p>
+                        
 
                         <h1 className="text-4xl font-extrabold leading-tight lg:text-5xl">
 
@@ -40,39 +34,11 @@ const Hero = () => {
 
                         <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600">
 
-                            Frontend Engineer with 10+ years of experience delivering enterprise-scale web applications using Angular, React, Java, Spring Boot and MongoDB. Passionate about clean architecture, accessibility, performance optimization and mentoring development teams.
+                            Frontend Engineer with 9+ years of experience delivering enterprise-scale web applications using React,Angular, Java, Spring Boot and MongoDB. Passionate about clean architecture, accessibility, performance optimization and mentoring development teams.
 
                         </p>
 
-                        {/* <div className="mt-8 grid grid-cols-2 gap-4">
-
-                            {[
-                                "Enterprise Applications",
-                                "Angular & React",
-                                "Spring Boot",
-                                "Performance",
-                                "Accessibility",
-                                "Team Leadership",
-                            ].map((item) => (
-
-                                <div
-                                    key={item}
-                                    className="flex items-center gap-2"
-                                >
-
-                                    <CheckCircle2
-                                        size={18}
-                                        className="text-blue-600"
-                                    />
-
-                                    <span>{item}</span>
-
-                                </div>
-
-                            ))}
-
-                        </div> */}
-
+                       
                         <div className="mt-10 flex flex-wrap gap-4">
 
                             <a

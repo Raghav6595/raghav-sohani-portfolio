@@ -1,26 +1,26 @@
 import {
   Trophy,
-  Star,
-  TrendingUp,
+  Award,
+  Medal,
 } from "lucide-react";
 
 export const awards = [
   {
     title: "Bravo Award",
     description:
-      "Recognized for delivering high-quality solutions and collaborating effectively across cross-functional teams.",
-    icon: Trophy,
+      "Recognized for consistently delivering high-quality solutions, technical ownership and supporting successful project delivery.",
+    icon: Award,
   },
   {
     title: "Top Talent Award",
     description:
-      "Awarded for consistently exceeding expectations through technical excellence and ownership.",
-    icon: Star,
+      "Recognized as a Top Talent for 3 consecutive years for consistently delivering technical excellence, solving complex engineering challenges and driving high-impact enterprise initiatives.",
+    icon: Trophy,
   },
   {
-    title: "Promotion",
+    title: "Spot Recognition",
     description:
-      "Promoted in recognition of strong technical contributions, leadership and consistent project delivery.",
-    icon: TrendingUp,
+      "Appreciated by leadership for collaboration, timely delivery and driving key frontend improvements.",
+    icon: Medal,
   },
 ];

@@ -22,7 +22,7 @@ export const skillCategories = [
   {
     title: "Database",
     skills: [
-      "MongoDB"
+      "MongoDB","SQL"
     ]
   },
   {
@@ -39,7 +39,10 @@ export const skillCategories = [
       "Git",
       "GitHub",
       "VS Code",
-      "Postman"
+      "Postman",
+      "IntelliJ",
+      "Github Copilot",
+      "AI Skill/Agents"
     ]
   }
 ];

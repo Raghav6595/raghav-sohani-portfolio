@@ -8,5 +8,5 @@ export const contact = {
 
   github: "https://github.com/Raghav6595",
 
-  resume: "",
+  resume: "/Raghav_Sohani.pdf",
 };

@@ -6,16 +6,22 @@ import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
-    <Section id="contact">
+    <Section id="contact" background="blue">
       <Container>
-        <div className="mx-auto max-w-3xl text-center">
+
+        <div className="mx-auto">
+
           <Heading
             title="Let's Connect"
             subtitle="Interested in discussing an opportunity, collaborating on a project, or simply saying hello? I'd love to hear from you."
           />
 
-          <ContactInfo />
+          <div className="mt-12">
+            <ContactInfo />
+          </div>
+
         </div>
+
       </Container>
     </Section>
   );

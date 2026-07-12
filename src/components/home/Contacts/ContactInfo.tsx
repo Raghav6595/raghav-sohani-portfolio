@@ -14,11 +14,11 @@ const ContactInfo = () => {
   return (
     <div className="mt-12">
 
-      <p className="mx-auto mb-12 max-w-2xl text-lg leading-8 text-gray-600">
+      <p className="mb-12 max-w-2xl text-lg leading-8 text-gray-600">
         {contact.description}
       </p>
 
-      <div className="mx-auto flex max-w-md flex-col gap-5">
+      <div className="flex max-w-md flex-col gap-5">
 
         <a
           href={`mailto:${contact.email}`}

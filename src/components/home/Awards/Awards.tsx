@@ -1,9 +1,9 @@
 import Card from "../../common/Card/Card";
 import Container from "../../common/Container/Container";
 import Heading from "../../common/Heading/Heading";
+import Section from "../../common/Section/Sections";
 
 import { awards } from "../../../content/awards";
-import Section from "../../common/Section/Sections";
 
 const Awards = () => {
   return (
@@ -11,30 +11,42 @@ const Awards = () => {
       <Container>
         <Heading
           title="Awards & Recognition"
-          subtitle="Recognition received for technical excellence and consistent project contributions."
+          subtitle="Recognition received for technical excellence, leadership and consistent project contributions."
         />
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-3">
+
           {awards.map((award) => {
             const Icon = award.icon;
 
             return (
               <Card key={award.title}>
-                <Icon
-                  size={38}
-                  className="mb-5 text-yellow-500"
-                />
 
-                <h3 className="text-xl font-bold">
-                  {award.title}
-                </h3>
+                <div className="flex h-full flex-col">
 
-                <p className="mt-4 leading-7 text-gray-600">
-                  {award.description}
-                </p>
+                  <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-yellow-50">
+
+                    <Icon
+                      size={30}
+                      className="text-yellow-500"
+                    />
+
+                  </div>
+
+                  <h3 className="text-xl font-bold text-gray-900">
+                    {award.title}
+                  </h3>
+
+                  <p className="mt-4 flex-1 leading-8 text-gray-600">
+                    {award.description}
+                  </p>
+
+                </div>
+
               </Card>
             );
           })}
+
         </div>
       </Container>
     </Section>
