@@ -1,11 +1,11 @@
 export const heroStats = [
   {
-    value: "10+",
+    value: "9+",
     label: "Years Experience",
   },
 
   {
-    value: "4",
+    value: "5",
     label: "Developers Led",
   },
 

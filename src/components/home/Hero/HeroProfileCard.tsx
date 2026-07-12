@@ -1,7 +1,6 @@
 import {
   Briefcase,
   Users,
-  ShieldCheck,
   Rocket,
   CheckCircle2,
 } from "lucide-react";
