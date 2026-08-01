@@ -8,7 +8,7 @@ import { ArrowRight, Download } from "lucide-react";
 
 const Hero = () => {
     return (
-        <Section id="hero" background="white">
+        <Section id="hero" background="gray">
 
             <Container>
 

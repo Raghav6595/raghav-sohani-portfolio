@@ -8,6 +8,7 @@ import Container from "../../common/Container/Container";
 import award1 from "../../../assets/images/Top_Talent_26.jpg";
 import award2 from "../../../assets/images/Top_Talent_25.jpg";
 import award3 from "../../../assets/images/Top_Talent_24.jpg";
+import Heading from "../../common/Heading/Heading";
 
 const awardImages = [award1, award2, award3];
 
@@ -43,17 +44,13 @@ const Experience = () => {
   return (
     <Section id="experience" background="gray">
       <Container>
-        <div className="text-center">
-          <h2 className="text-3xl font-bold lg:text-4xl">
-            Experience & Recognition
-          </h2>
-
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-            A journey of building enterprise-scale applications, leading frontend
+        
+        <Heading
+            title="Experience & Recognition"
+            subtitle="A journey of building enterprise-scale applications, leading frontend
             initiatives, and being recognized for consistent technical excellence
-            and delivery impact.
-          </p>
-        </div>
+            and delivery impact."
+          />
 
         <div className="mt-16 grid items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
           {/* LEFT SIDE */}
