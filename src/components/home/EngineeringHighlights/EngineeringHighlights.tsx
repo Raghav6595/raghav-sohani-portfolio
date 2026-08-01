@@ -7,7 +7,7 @@ import { engineeringHighlights } from "../../../content/highlights";
 
 const EngineeringHighlights = () => {
   return (
-    <Section id="highlights" background="gray">
+    <Section id="highlights" background="white">
       <Container>
         <Heading
           title="Engineering Highlights"

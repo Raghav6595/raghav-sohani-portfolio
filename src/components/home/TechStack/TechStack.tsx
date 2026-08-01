@@ -25,7 +25,7 @@ const categoryIcons: Record<string, React.ReactNode> = {
 
 const TechStack = () => {
     return (
-        <Section id="tech-stack" background="white">
+        <Section id="tech-stack" background="gray">
             <Container>
                 <Heading
                     title="Tech Stack"

@@ -7,7 +7,7 @@ import { awards } from "../../../content/awards";
 
 const Awards = () => {
   return (
-    <Section id="awards">
+    <Section id="awards" background="gray">
       <Container>
         <Heading
           title="Awards & Recognition"

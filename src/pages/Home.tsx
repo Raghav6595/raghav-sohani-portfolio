@@ -23,12 +23,16 @@ const Awards = lazy(
 const Contacts = lazy(
   () => import("../components/home/Contacts/Contacts")
 );
+const Experience = lazy(
+  () => import("../components/home/Experience/Experience")
+);
 
 const Home = () => {
   return (
     <MainLayout>
       <Suspense fallback={<PageLoader />}>
         <Hero />
+        <Experience />
         <FeaturedProject />
         <TechStack />
         <EngineeringHighlights />

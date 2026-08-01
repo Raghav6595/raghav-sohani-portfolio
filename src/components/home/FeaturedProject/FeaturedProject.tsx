@@ -14,7 +14,7 @@ import projectImage from "../../../assets/images/prasthanam-home.png";
 
 const FeaturedProject = () => {
     return (
-        <Section id="projects" background="gray">
+        <Section id="projects">
             <Container>
                 <Heading
                     title="Featured Project"
