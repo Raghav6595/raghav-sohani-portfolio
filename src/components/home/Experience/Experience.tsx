@@ -14,9 +14,14 @@ const awardImages = [award1, award2, award3];
 
 const experiences = [
   {
+    company: "LTM(LTIMindtree",
+    role: "Specialist Software Engineering",
+    period: "Aug 2026 – Present",
+  },
+  {
     company: "Persistent Systems",
     role: "Senior Engineering Lead",
-    period: "Nov 2022 – Present",
+    period: "Nov 2022 – Aug 2026",
   },
   {
     company: "Accenture Solutions",
@@ -44,13 +49,13 @@ const Experience = () => {
   return (
     <Section id="experience" background="gray">
       <Container>
-        
+
         <Heading
-            title="Experience & Recognition"
-            subtitle="A journey of building enterprise-scale applications, leading frontend
+          title="Experience & Recognition"
+          subtitle="A journey of building enterprise-scale applications, leading frontend
             initiatives, and being recognized for consistent technical excellence
             and delivery impact."
-          />
+        />
 
         <div className="mt-16 grid items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
           {/* LEFT SIDE */}
@@ -103,8 +108,8 @@ const Experience = () => {
                     key={index}
                     onClick={() => setCurrentIndex(index)}
                     className={`h-2 rounded-full transition-all duration-300 ${currentIndex === index
-                        ? "w-6 bg-blue-600"
-                        : "w-2 bg-gray-300"
+                      ? "w-6 bg-blue-600"
+                      : "w-2 bg-gray-300"
                       }`}
                   />
                 ))}

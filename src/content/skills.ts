@@ -8,7 +8,8 @@ export const skillCategories = [
       "JavaScript",
       "HTML5",
       "CSS3",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Redux Toolkit",
     ]
   },
   {
