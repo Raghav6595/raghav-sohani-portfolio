@@ -14,7 +14,7 @@ const awardImages = [award1, award2, award3];
 
 const experiences = [
   {
-    company: "LTM(LTIMindtree",
+    company: "LTM(LTIMindtree)",
     role: "Specialist Software Engineering",
     period: "Aug 2026 – Present",
   },

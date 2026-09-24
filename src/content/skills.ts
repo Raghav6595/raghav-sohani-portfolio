@@ -17,7 +17,7 @@ export const skillCategories = [
     skills: [
       "Java",
       "Spring Boot",
-      "REST APIs"
+      "REST APIs",
     ]
   },
   {
@@ -31,7 +31,8 @@ export const skillCategories = [
     skills: [
       "Jasmine",
       "Karma",
-      "Jest"
+      "Jest",
+      "React Testing Library"
     ]
   },
   {

@@ -37,7 +37,7 @@ const HeroProfileCard = () => {
             <span>Team Leadership</span>
           </div>
 
-          <strong>5 Developers</strong>
+          <strong>7-8 Developers</strong>
 
         </div>
 
